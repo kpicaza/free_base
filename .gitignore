@@ -1,0 +1,4 @@
+# Ignore bootstrap libraies
+bootstrap/*
+
+/nbproject/private/

@@ -1,0 +1,21 @@
+name = freeee Sub-theme
+description = A freeee Sub-theme.
+core = 7.x
+base theme = freeee
+
+stylesheets[all][] = css/custom.css
+
+; Add regions
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[help]           = Help
+regions[branding]       = Branding
+regions[navigation]     = Navigation bar
+regions[header]         = Header
+regions[hero]           = Hero
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer

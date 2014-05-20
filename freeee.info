@@ -1,0 +1,33 @@
+name = freeee
+description = Greys scale Drupal custum theme.
+core = 7.x
+engine = phptemplate
+
+dependencies[] = jquery_update
+
+; Add bootstrap css to template
+stylesheets[all][] = bootstrap/css/bootstrap-theme.css
+stylesheets[all][] = bootstrap/css/bootstrap.css
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+; Add Bootstrap scripts
+scripts[] = bootstrap/js/bootstrap.js
+scripts[] = js/custom.js
+
+; Add regions
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[help]           = Help
+regions[branding]       = Branding
+regions[navigation]     = Navigation bar
+regions[header]         = Header
+regions[hero]           = Hero
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+

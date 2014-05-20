@@ -1,0 +1,78 @@
+// Primary Stylesheet
+body {
+}
+
+#page {
+    margin-top: 0px;
+    padding: 20px;
+}
+
+#skip-link {
+}
+
+#header {
+    margin-top: 10px;
+}
+
+#logo {
+}
+
+a#logo {
+}
+
+#name-and-slogan {
+}
+
+#site-name a {
+}
+
+#navigation {    
+}
+
+.admin-menu #navigation {
+    margin-top: 20px;
+}
+
+.navbar-fixed-top{
+    z-index: 250;
+}
+
+#navigation h2 {
+
+}
+
+ul {
+}
+
+ul li, ul li.leaf {
+    list-style: none;
+}
+
+#main-wrapper {
+}
+
+#main {
+}
+
+#content {
+}
+.list-group-item:hover {
+    background-color: #efefef;
+}
+
+.pagination > li > span {
+    color: #555;
+}
+
+#sidebar-first {
+}
+
+#footer {
+    background-color: #555;
+    min-height: 80px;
+    color: #D5E9F2;
+}
+
+#footer a {
+    color: #fff;
+}
